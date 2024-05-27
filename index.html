@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Front-End developer</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o
+		+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <!-- header nav -->
+        <div class="header-nav">
+          <a href="#!" class="logo">Portfo<span>Lio</span></a>
+          <nav id="nav" class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a
+                  href="https://skgamma.ru/upload/iblock/950/mam19be5dxewe1bdxdo30e0maab2w6xe.jpeg"
+                  class="nav-link active"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link">МОИ РАБОТЫ</a>
+              </li>
+              <li class="nav-item"><a href="#!" class="nav-link">РЕЗЮМЕ</a></li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link">ПРО МЕНЯ</a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link">КОНТАКТЫ</a>
+              </li>
+            </ul>
+            <button id="nav-btn" class="nav-button">
+              <img id="nav-btn-img" src="img/svg/NAV.svg" alt="Nav button" />
+            </button>
+          </nav>
+        </div>
+
+        <!-- header content -->
+        <div class="header-row">
+          <div class="header-content" data-aos="flip-left">
+            <h1 class="header-heading">
+              Ессаи Саакян<br />
+              <span> Front-End Разработчик</span>
+            </h1>
+            <p>
+              Я frond-end разработчик, специализирующийся на создании
+              качественных сайтов с доступными интерфейсами и чистым исходным
+              кодом. Я увлечен своей работой, что позволяет реализовывать
+              проекты любой сложности с исполнением всех требований заказчика
+              быстро, на высоком уровне и в срок.
+            </p>
+          </div>
+          <div class="header-img" data-aos="fade-left">
+            <picture>
+              <source
+                media="(max-width: 799px)"
+                srcset="img/now/now-mobil.png"
+              />
+              <img src="img/now/now.png" alt="png-img" />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="services">
+      <div class="container">
+        <div class="services-row">
+          <div class="service-card">
+            <img
+              class="service-card-img"
+              src="img/svg/service1.svg"
+              alt="UI/UX Design"
+            />
+            <h3 class="service-card-title">UI/UX DESIGN</h3>
+            <p>
+              Our design is translated into comprehensive digital environments
+              built on latest development standards.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <img
+              class="service-card-img"
+              src="img/svg/startup 1.svg"
+              alt="Development"
+            />
+            <h3 class="service-card-title">DEVELOPMENT</h3>
+            <p>
+              Our design is translated into comprehensive digital environments
+              built on latest development standards.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <img
+              class="service-card-img"
+              src="img/svg/service2.svg"
+              alt="software testing"
+            />
+            <h3 class="service-card-title">SOFTWARE TESTING</h3>
+            <p>
+              Our design is translated into comprehensive digital environments
+              built on latest development standards.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio">
+      <div class="container">
+        <div class="portfolio-title">
+          <h2 class="title-1">My Projects</h2>
+
+          <div class="project" data-aos="flip-left">
+            <img src="img/projects/project1.png" alt="Online fashion store -
+            Homepage class="project-img">
+            <h3 class="project-title">
+              <a href="#!">Online fashion store - Homepage</a>
+            </h3>
+          </div>
+
+          <div class="project" data-aos="flip-left">
+            <img src="img/projects/project2.png" alt="Portfolio site page -
+            Homepage class="project-img">
+            <h3 class="project-title"><a href="#!">Portfolio site page</a></h3>
+          </div>
+
+          <div class="project" data-aos="flip-up">
+            <img src="img/projects/project3.png" alt="Portfolio Website Design -
+            Homepage class="project-img">
+            <h3 class="project-title">
+              <a href="#!">Portfolio Website Design</a>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="contacts">
+      <div class="container">
+        <div class="contacts-title">
+          <h2 class="title-1">КОНТАКТЫ</h2>
+        </div>
+        <div class="contacts-content" data-aos="fade-down">
+          <p>Want to know more or just chat? You are welcome!</p>
+        </div>
+        <div class="contacts-button" data-aos="fade-down">
+          <a href="https://mail.ru/" class="btn">Send message</a>
+        </div>
+        <div class="contacts-social" data-aos="zoom-in">
+          <a href="#!"
+            ><img src="img/icons/facebook_108044.png" alt="facebook"
+          /></a>
+          <a href="#!"
+            ><img src="img/icons/instagram_108043.png" alt="instagram"
+          /></a>
+          <a href="https://t.me/VardAraqs"
+            ><img src="img/icons/telegram.png" alt="telegram"
+          /></a>
+          <a href="#!"
+            ><img src="img/icons/whatsapp_108042.png" alt="whatsapp"
+          /></a>
+          <a href="https://youtube.com/@essojan32?si=LwAXRPod1VZkN522"
+            ><img src="img/icons/youtube_14198.png" alt="youtube"
+          /></a>
+          <div class="contacts-footer" data-aos="fade-up">
+            <p>
+              Like me on <br />
+              facebook, instagram, youtube
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
